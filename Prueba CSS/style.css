@@ -1,18 +1,25 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
-h1{ 
+h1 { 
     font-size: 3.5em;
     text-align: center;
 }
-h2{ font-size: 2.7em;}
-h3{ font-size: 2em;}
+
+h2 {
+font-size: 2.7em;
+}
+
+h3 {
+font-size: 2em;
+}
+
 h6 {
     margin-left: 15%;
 }
@@ -54,48 +61,6 @@ header a{
 
 header a:hover{
     color: rgb(255, 34, 34);
-}
-
-footer {
-    background-color: #0c0c0cfb;
-    
-}
-
-footer .container{
-    display: flex;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: row;
-}
-
-footer nav{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-bottom: 25px;
-}
-
-footer .container a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: left;
-    
-}
-
-footer .container-2 a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: left;
-}
-
-footer a:hover{
-    color: rgb(255, 115, 115);
 }
 
 .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
@@ -141,14 +106,6 @@ footer a:hover{
     color: #65737e;  
 }
 
-footer .container-2 {
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: row;
-}
-
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -158,13 +115,6 @@ footer .container-2 {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
-    }
-
-    footer nav {
-        flex-direction: row;
-        padding-bottom: 0;
-        align-items: center;
-        text-align: baseline;
     }
 
 .container .imagen {
@@ -189,7 +139,6 @@ background-size: cover;
 background-position: center center;
 padding: 1%;
 font-family: 'Century Gothic', sans-serif;
-
 }
 
 .riot-1{
@@ -236,6 +185,11 @@ font-size: 450%;
 .finalizima {
     align-items: center;
     text-align: center;
+    width: 900px;
+    height: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 p {
@@ -267,4 +221,86 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(0, 0, 0);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid rgb(180, 152, 255);  /* creates padding around scroll thumb */
+}
+
+footer nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    align-items:center;
+    text-align: baseline;
+}
+
+footer .container-2 {
+height: 40px;
+display: flex;
+justify-content: space-evenly;
+align-items: left;
+flex-direction: row;
+}
+.container a img{
+width: 30px;
+}
+
+footer {
+background-color: #0c0c0cfb;
+}
+
+footer .container{
+display: flex;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: left;
+flex-direction: row;
+}
+
+footer nav{
+display: flex;
+flex-direction: row;
+text-align: left;
+padding-bottom: 25px;
+}
+
+footer .container a{
+padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+color: #ffffff;
+text-align: left;
+}
+
+footer .container-2 a{
+padding: 5px 12px;
+text-decoration: none;
+font-weight: bold;
+color: #ffffff;
+text-align: left;
+}
+
+footer a:hover{
+color: rgb(255, 0, 0);
+}
+
+.blabla a img {
+width: 10px;
+}
+
+.container a {
+font-size: 70%;
+}
+
+.container-2 nav{
+justify-content: flex-start;
+}
+
+.container-2 a{
+font-size: 20%;
+}
+
+.container-2 a img{
+width: 10px;
+}
+
+.container-2 p{
+color: #ffffff;
 }
